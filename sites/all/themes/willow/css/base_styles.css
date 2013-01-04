@@ -1,0 +1,106 @@
+/* Body */
+/* line 3, ../sass/base_styles.scss */
+html {
+  overflow-y: scroll;
+}
+
+/* line 7, ../sass/base_styles.scss */
+body {
+  background: url(images/bg.png) repeat;
+}
+
+@media (min-width: 980px) {
+  /* line 12, ../sass/base_styles.scss */
+  body {
+    padding-top: 130px;
+  }
+
+  /* line 15, ../sass/base_styles.scss */
+  body.toolbar {
+    padding-top: 164px !important;
+  }
+}
+/* Theme TinyMCE Body Colour */
+/* line 22, ../sass/base_styles.scss */
+body#tinymce.mceContentBody {
+  background: #fff;
+}
+
+/* Text Styles */
+/* line 27, ../sass/base_styles.scss */
+a, a:hover {
+  color: #4f6f19;
+}
+
+/* line 31, ../sass/base_styles.scss */
+.nav .dropdown-toggle .caret {
+  border-bottom-color: #4f6f19;
+  border-top-color: #4f6f19;
+}
+
+/* Top Navigation & Branding */
+/* line 38, ../sass/base_styles.scss */
+body.toolbar .navbar-inner {
+  margin-top: -34px;
+}
+
+/* line 42, ../sass/base_styles.scss */
+.navbar-inner {
+  background: url(images/menu.png) repeat-x;
+  border-radius: 4px 4px 4px 4px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067);
+  height: 100px;
+  line-height: 90px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* line 52, ../sass/base_styles.scss */
+.navbar-inner ul.menu.nav li {
+  line-height: 80px;
+}
+
+/* line 56, ../sass/base_styles.scss */
+.navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {
+  box-shadow: none;
+}
+
+/* Menu Hovers */
+/* line 63, ../sass/base_styles.scss */
+.dropdown-menu li > a:hover, .dropdown-menu li > a:focus, .dropdown-submenu:hover > a,
+.dropdown-menu .active > a, .dropdown-menu .active > a:hover {
+  background-color: #4f6f19;
+  background-image: none;
+}
+
+/* Main Content Section */
+/* line 70, ../sass/base_styles.scss */
+.mainsec {
+  background: #fff;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+/* Footer */
+/* line 80, ../sass/base_styles.scss */
+.footer {
+  background: url(images/footer.png) repeat;
+  color: #fff;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+/* line 89, ../sass/base_styles.scss */
+.footer-left {
+  padding-left: 20px;
+}
+
+/* line 93, ../sass/base_styles.scss */
+.footer-right {
+  padding-left: 20px;
+  padding-right: 20px;
+}

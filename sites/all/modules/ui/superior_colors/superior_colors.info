@@ -1,0 +1,11 @@
+core = "7.x"
+name = Superior Colors
+dependencies[] = "libraries"
+dependencies[] = "jquery_colorpicker"
+
+; Information added by drupal.org packaging script on 2013-01-04
+version = "7.x-1.x-dev"
+core = "7.x"
+project = "superior_colors"
+datestamp = "1357264425"
+

@@ -1,0 +1,12 @@
+name = CKEditor for WYSIWYG
+description = WYSIWYG editing for rich text fields using CKEditor.
+package = User interface
+core = 7.x
+dependencies[] = wysiwyg
+
+; Information added by drupal.org packaging script on 2012-12-27
+version = "7.x-1.x-dev"
+core = "7.x"
+project = "wysiwyg_ckeditor"
+datestamp = "1356574105"
+

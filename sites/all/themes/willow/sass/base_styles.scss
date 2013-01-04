@@ -1,0 +1,96 @@
+/* Body */
+
+html {
+  overflow-y: scroll;
+}
+
+body {
+    background: url(images/bg.png) repeat;
+}
+
+@media(min-width: 980px) {
+  body {
+    padding-top: 130px;
+  }
+  body.toolbar {
+  padding-top: 164px !important;
+  }
+}
+
+/* Theme TinyMCE Body Colour */
+
+body#tinymce.mceContentBody {
+  background: #fff;
+}
+/* Text Styles */
+
+a, a:hover {
+    color: #4f6f19;
+}
+
+.nav .dropdown-toggle .caret {
+    border-bottom-color: #4f6f19;
+    border-top-color: #4f6f19;
+}
+
+/* Top Navigation & Branding */
+
+body.toolbar .navbar-inner {
+    margin-top: -34px;
+}
+
+.navbar-inner {
+    background: url(images/menu.png) repeat-x; 
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067);
+    height: 100px;
+    line-height: 90px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navbar-inner ul.menu.nav li {
+    line-height: 80px;
+}
+
+.navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {
+    box-shadow: none;
+}
+
+/* Menu Hovers */
+
+.dropdown-menu li > a:hover, .dropdown-menu li > a:focus, .dropdown-submenu:hover > a,
+.dropdown-menu .active > a, .dropdown-menu .active > a:hover {
+    background-color: #4f6f19;
+    background-image: none;
+}
+
+/* Main Content Section */
+
+.mainsec {
+    background: #fff;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+/* Footer */
+
+.footer {
+    background: url(images/footer.png) repeat;
+    color: #fff;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.footer-left {
+    padding-left: 20px;
+}
+
+.footer-right {
+    padding-left: 20px;
+    padding-right: 20px;
+}
